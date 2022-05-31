@@ -50,6 +50,11 @@ namespace TodoApp
 
             app.UseRouting();
 
+            app.UseCors(options => options.AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .WithOrigins());
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
