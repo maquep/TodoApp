@@ -4,7 +4,6 @@ using System;
 using System.Threading.Tasks;
 using TodoApp.Contracts.V1;
 using TodoApp.Contracts.V1.Requests;
-using TodoApp.Contracts.V1.Responses;
 using TodoApp.Domain;
 using TodoApp.Service;
 
